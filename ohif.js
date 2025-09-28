@@ -20,22 +20,6 @@ window.config = {
     ],
   },
   whiteLabeling: {
-    /* Used to replace the default Logo */
-    createLogoComponentFn: function(React) {
-      return React.createElement('a', {
-        target: '_self',
-        rel: 'noopener noreferrer',
-        className: 'header-brand',
-        href: '/',
-        style: {
-          display: 'block',
-          background: 'url(/logo.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          width: '200px',
-        },
-      });
-    },
   },
   // Extensions should be able to suggest default values for these?
   // Or we can require that these be explicitly set
@@ -137,6 +121,6 @@ window.config = {
   cornerstoneExtensionConfig: {},
 
   // studyListFunctionsEnabled is set to true to enable DICOM uploading
-  studyListFunctionsEnabled: true
+  studyListFunctionsEnabled: false
   
 };

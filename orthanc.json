@@ -1,5 +1,5 @@
 {
-  "Name" : "M A P D R",
+  "Name" : "Neck Spaces",
   "StorageDirectory" : "/var/lib/orthanc/db",
   "IndexDirectory" : "/var/lib/orthanc/db",
   "StorageCompression" : true,
@@ -36,7 +36,7 @@
   "SslTrustedClientCertificates" : "trustedClientCertificates.pem",
   "AuthenticationEnabled" : true,
     "RegisteredUsers" : {
-    "mapdr" : "changestrongpassword"
+    "neck" : "spaces"
   },
   "DicomTlsEnabled" : false,
   "DicomTlsRemoteCertificateRequired" : true,
